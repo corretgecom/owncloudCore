@@ -3,7 +3,53 @@
 If you have questions about how to use ownCloud, please direct these to the [mailing list][mailinglist] or our [forum][forum]. We are also available on [IRC][irc].
 
 ### Guidelines
-* Report the issue using our [template][template], it includes all the informations we need to track down the issue.
+* Report the issue using the following template, it includes all the information we need to track down the issue:
+	### Expected behaviour
+	Tell us what should happen
+
+	### Actual behaviour
+	Tell us what happens instead
+
+	### Steps to reproduce
+	1. 
+	2. 
+	3. 
+
+	### Server configuration
+	Operating system:
+
+	Web server: 
+
+	Database:
+
+	PHP version:
+
+	ownCloud version:
+
+	### Client configuration
+	Browser:
+
+	Operating system:
+
+	### Logs
+	#### Web server error log
+	```
+	Insert your webserver log here
+	```
+
+	#### ownCloud log (data/owncloud.log)
+	```
+	Insert your ownCloud log here
+	```
+
+	#### Browser log
+	```
+	Insert your browser log here, this could for example include:
+
+	a) The javascript console log
+	b) The network log 
+	c) ...
+	```
 * This repository is *only* for issues within the ownCloud core code. Issues in other compontents should be reported in their own repositores: 
   - [Android client](https://github.com/owncloud/android/issues)
   - [iOS client](https://github.com/owncloud/ios-issues/issues)
